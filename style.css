@@ -80,7 +80,21 @@ a {
 }
 
 
+#tema {
+    height: 50vw;
+    width: 100%
+}
+
 /***Grundlæggende indstillinger SLUT***/
+
+
+/********Fotter********/
+footer {
+    background-color: #BA8F01;
+    padding: 1rem;
+    color: #82173C;
+    text-align: center;
+}
 
 /***Transition***/
 #tema2,
@@ -138,7 +152,7 @@ a {
 /***SPLASH SLUT***/
 #splash {
     width: 100%;
-    height: 100vh;
+    height: 50vw;
     background-image: url(illustrator/splash.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,9 +204,24 @@ a {
 
 #om img {
     width: 30%;
-
-    /****Portfolie SLUT****/
 }
+
+
+#cv p {
+    padding-left: 24.5rem;
+}
+
+
+#cv h2 {
+    padding-left: 24.5rem;
+
+
+}
+
+
+/****OM SLUT*****/
+/****Portfolie SLUT****/
+
 
 #om .col {
     flex-grow: 1;
@@ -267,42 +296,54 @@ h2 {
 /***WEB SLUT****/
 
 /***UX****/
-/*
-#ux_tema .sectionwrapper {
-    padding: 1rem;
-    margin: 1rem;
-    border: 5px solid #BF9401;
-    padding: 1.5rem;
-    border-radius: 10px;
 
+#ux2 .sectionwrapper {
 
-}
-*/
-
-
-
-
-/*
-#ux_tema .sectionwrapper {
     display: flex;
-    flex-wrap: wrap;
+
+    padding: 0;
+}
+
+
+#ux2 .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0;
+}
+
+#ux2 img {
+    max-width: 300px;
 
 }
-*/
 
 
 
-#ux_tema .col {
-    flex-basis: 50px;
+#ux_tema a {
+    text-decoration: none;
+}
+
+#ux2 .sectionwrapper {
+    flex-wrap: wrap;
     display: flex;
-    flex-wrap: wrap;
+
+    padding: 0;
 }
 
-#ux_tema .img {
-    height: 85%;
+
+#ux2 .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 0;
+}
+
+#ux2 img {
+    max-width: 400px;
 
 }
 
+#ux2 p {
+    padding-right: 3.5rem;
+}
 
 
 #ux_tema a {
@@ -347,13 +388,7 @@ h2 {
 
 }
 
-/*
-#animagrund h2 {
-    font-family: 'Oswald', sans-serif;
-    padding-left: 0.4rem;
 
-}
-*/
 
 
 #animagrund .col_image {
@@ -540,6 +575,7 @@ h2 {
 #screen h2 h1 {
 
     text-align: center;
+
     font-size: 1.5rem;
 
 }
