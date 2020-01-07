@@ -1,0 +1,838 @@
+/*---- Generelle indstillinger ------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+h2 {
+
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 500px;
+    /*    width: 800px;*/
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+
+.box,
+.box2 {
+
+    max-width: 15rem;
+    margin: 0.5rem;
+    background-color: #82173C;
+    text-align: center;
+    padding: 0.7rem;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+}
+
+
+/***Grundlæggende indstillinger SLUT***/
+
+/***Transition***/
+#tema2,
+#ux_tema,
+#grund_web img {
+    transition: .4s;
+    transition-timing-function: cubic-bezier(.2, 0, .3, 1);
+    transform: scale(1);
+    /*    border: 1px solid black;*/
+}
+
+#tema2,
+#ux_tema,
+#grund_web img:hover {
+    transition: .4s;
+    transition-timing-function: cubic-bezier(.2, 0, .3, 1);
+    transform: scale(1.07);
+}
+
+
+
+#temaer img {
+    transition: .4s;
+    transition-timing-function: cubic-bezier(.2, 0, .3, 1);
+    transform: scale(1);
+    /*    border: 1px solid black;*/
+}
+
+#temaer img:hover {
+    transition: .4s;
+    transition-timing-function: cubic-bezier(.2, 0, .3, 1);
+    transform: scale(1.07);
+}
+
+#tema2 img {
+    transition: .4s;
+    transition-timing-function: cubic-bezier(.2, 0, .3, 1);
+    transform: scale(1);
+    /*    border: 1px solid black;*/
+}
+
+#tema2 img:hover {
+    transition: .4s;
+    transition-timing-function: cubic-bezier(.2, 0, .3, 1);
+    transform: scale(1.07);
+}
+
+
+
+/***Transition SLUT***/
+
+/***SPLASH****/
+
+
+/***SPLASH SLUT***/
+#splash {
+    width: 100%;
+    height: 100vh;
+    background-image: url(illustrator/splash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+/***portfolie**/
+
+
+
+#temaer .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+
+}
+
+#temaer .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 0.5rem 0.1rem;
+    padding: 0.5rem;
+
+
+}
+
+
+#tema2 .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 0.5rem 0.1rem;
+    padding: 0.5rem;
+}
+
+/****Portfolie SLUT****/
+
+
+/*****OM*******/
+
+
+#cv video {
+    width: 60%;
+    height: 60%;
+
+}
+
+
+#om img {
+    width: 30%;
+
+    /****Portfolie SLUT****/
+}
+
+#om .col {
+    flex-grow: 1;
+    flex-basis: 250px;
+    width: auto;
+
+}
+
+#om p,
+h2 {
+    padding-left: 2rem;
+    padding-right: 400px;
+
+}
+
+#om {
+
+    padding-left: 0px;
+    padding-top: 2.5rem;
+
+}
+
+#cv .col {
+    flex-grow: 1;
+    flex-basis: 250px;
+    width: auto;
+
+}
+
+/****web****/
+
+#grund_web {
+
+    margin: 1rem;
+    border: 5px solid #BF9401;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+}
+
+#grund_web p {
+    padding: 0.6rem;
+    margin: 0.6rem;
+    padding-right: 6rem;
+}
+
+
+#grund_web h1 {
+    padding: 0.6rem;
+    margin: 0.6rem;
+}
+
+
+#grund_web img {
+    padding-bottom: 2rem;
+}
+
+#grund_web .box {
+
+    padding-top: 30px;
+    max-width: 15rem;
+    background-color: #82173C;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.4rem;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+/***WEB SLUT****/
+
+/***UX****/
+/*
+#ux_tema .sectionwrapper {
+    padding: 1rem;
+    margin: 1rem;
+    border: 5px solid #BF9401;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+
+}
+*/
+
+
+
+
+/*
+#ux_tema .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+*/
+
+
+
+#ux_tema .col {
+    flex-basis: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ux_tema .img {
+    height: 85%;
+
+}
+
+
+
+#ux_tema a {
+    text-decoration: none;
+}
+
+
+
+/***UX SLUT***/
+
+
+/***Designs.html***/
+#pdf_design iframe {
+    width: 100vw;
+    height: 56.25vw;
+    border: 0;
+
+}
+
+/**SLUT**/
+
+/****Animation forsiden***/
+
+
+
+
+#anigrund .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /*    justify-content: space-between;*/
+    padding: 1rem;
+
+}
+
+
+
+#animagrund .col_txt {
+    flex-basis: 500px;
+    flex-grow: 1;
+
+
+
+}
+
+/*
+#animagrund h2 {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 0.4rem;
+
+}
+*/
+
+
+#animagrund .col_image {
+    margin: 40px;
+}
+
+
+
+#animagrund p {
+    padding-right: 80px;
+    padding-left: 5px;
+
+}
+
+#ani_txt {
+    margin: 1rem;
+    border: 5px solid #BF9401;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+}
+
+#ani_txt p {
+    padding-right: 350px;
+
+}
+
+#animagrund .col_txt2 {
+    flex-basis: 500px;
+    flex-grow: 1;
+
+
+}
+
+
+
+#animagrund img {
+    transition: .4s;
+    transition-timing-function: cubic-bezier(.2, 0, .3, 1);
+    transform: scale(1);
+    border-radius: 10px;
+}
+
+#animagrund img:hover {
+    transition: .4s;
+    transition-timing-function: cubic-bezier(.2, 0, .3, 1);
+    transform: scale(1.07);
+}
+
+
+#animagrund .col_image {
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+
+}
+
+#animation .box {
+    margin: auto;
+}
+
+
+#animagrund .box3 {
+    max-width: 15rem;
+    margin: 1rem;
+
+}
+}
+
+
+#border {
+    padding: 4rem;
+    margin: 1rem;
+    border-bottom: 2px solid #BF9401;
+
+
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+
+
+
+}
+
+@keyframes pulse_kf {
+
+    0% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.95);
+    }
+
+
+}
+
+
+
+.shake {
+    animation-name: shake_kf;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes shake_kf {
+
+    0% {
+        transform: translateX(-10);
+    }
+
+    /*
+    50% {
+        transform: translateX(0);
+
+    }
+*/
+
+    100% {
+        transform: translateX(10);
+    }
+
+
+}
+
+
+
+
+
+
+/*** ANIMATION FORSIDE SLUT***/
+
+
+/**Sex og samfund + taco spil**/
+
+#animation iframe {
+    width: 100vw;
+    height: 56.25vw;
+    border: 0;
+
+}
+
+
+#animation {
+    border-bottom: 5px solid #BF9401;
+    padding: 1rem;
+}
+
+
+#skitserspil .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+    margin: 0.5rem 0.1rem;
+    padding: 1rem;
+
+
+}
+
+
+#animation h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+
+#assetlitse,
+#skitserspil,
+#spil_s,
+#screen h2 h1 {
+
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+
+#spilscreen h2 {
+
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+
+#spilscreen img {
+    padding: 1rem;
+}
+
+#spil_screen img {
+    padding: 1rem;
+}
+
+
+
+#moodboardspil h2 {
+
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+#skitserspil .col .img {
+    flex-grow: 1;
+    flex-basis: 500px;
+    margin: 0.5rem 0.1rem;
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+
+
+
+
+#moodboardspil .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 0.5rem 0.1rem;
+    padding: .5rem;
+
+
+}
+
+#spil_screen .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*
+#spil_screen .col {
+    flex-grow: 1;
+    flex-basis: 600px;
+    margin: 0.5rem 0.1rem;
+    padding: 1rem;
+}*/
+
+/*
+#spil_screen,
+#spilscreen img {
+
+    padding: .5rem;
+}
+*/
+
+#screen img {
+    height: 200px;
+    width: 200px;
+}
+
+#spilelementer img {
+    height: 200px;
+    width: 200px;
+
+}
+
+
+
+#uielementer img {
+    height: 200px;
+    width: 200px;
+
+}
+
+/**Sex og samfund spil SLUT**/
+
+
+/***Tema 4***/
+
+#indhold {
+    margin: 1rem;
+    border: 5px solid #BF9401;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+}
+
+#indhold2 {
+    margin: 1rem;
+    border: 5px solid #BF9401;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+}
+
+
+#content h1 {
+    text-align: center;
+}
+
+
+#indhold2 .bottom {
+    padding: 1.5rem;
+}
+
+
+#indhold h2 {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 0.3rem;
+
+}
+
+#indhold2 h2 {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 0.3rem;
+
+}
+
+
+#box_indhold {
+    display: flex;
+
+}
+
+
+#indhold,
+indhold2,
+box_indhold .col,
+    {
+
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 0.5rem 0.1rem;
+    width: 600px;
+
+}
+
+
+
+
+#kevin_video {
+    display: flex;
+}
+
+
+#kevin_video video {
+    height: auto;
+    width: 50vw;
+
+}
+
+#indhold2 {
+    padding: 40px;
+
+}
+
+
+#indhold2 p {
+
+    padding-right: 30px;
+
+}
+
+
+
+#indhold2 iframe {
+    width: 600px;
+    height: 56.25vw;
+    border: 0;
+    /*    margin: 50px;*/
+    display: flex;
+}
+
+
+
+
+
+
+
+/*****Tema 4 SLUT***/
+
+
+
+/***menu***/
+
+header {
+    width: 100vw;
+    background-color: #BA8F01;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+
+header nav a {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.5rem;
+    color: #80173C;
+}
+
+
+
+header nav a:visited {
+    color: #ffffff;
+}
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+    display: none;
+}
+
+#menuknap {
+    display: inline-block;
+    color: #80173C;
+    margin: 0.5rem;
+}
+
+
+
+/*****Menu SLUT*****/
+
+
+/**** media INDSTILLINGER **/
+
+@media only screen and (min-width:800px) {
+
+    #menuknap {
+        display: none;
+
+    }
+
+    .hidden {
+        transform: translateX(0);
+        opacity: 1;
+        display: inline-block;
+    }
+
+    header li {
+        display: inline-block;
+        letter-spacing: 1px;
+
+
+    }
+
+    header nav {
+        padding: 0.1rem;
+        height: 70px;
+
+
+    }
+
+
+    header nav li {
+
+        padding: 0.2rem;
+        background-color: transparent;
+        margin: 0.2rem;
+        text-decoration: none;
+        /*        color: #80173C;*/
+    }
+
+
+
+    @media only screen and (min-width: 800px) #animationtxt .col {
+        flex-grow: 1;
+        flex-basis: 300px;
+    }

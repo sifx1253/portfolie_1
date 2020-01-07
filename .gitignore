@@ -10,3 +10,6 @@
 *.svg
 *.png
 *.mp4
+*.pdf
+/cvbillede_.JPG
+/cvbillede.JPG
