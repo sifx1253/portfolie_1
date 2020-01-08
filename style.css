@@ -445,7 +445,7 @@ h2 {
 }
 
 #ani_txt .col {
-    flex-basis: 300px;
+    flex-basis: 400px;
     flex-grow: 1;
 
 
@@ -496,7 +496,7 @@ h2 {
     margin: 1rem;
 
 }
-}
+
 
 
 #border {
@@ -535,37 +535,6 @@ h2 {
 
 
 }
-
-
-
-.shake {
-    animation-name: shake_kf;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-
-}
-
-@keyframes shake_kf {
-
-    0% {
-        transform: translateX(-10);
-    }
-
-    /*
-    50% {
-        transform: translateX(0);
-
-    }
-*/
-
-    100% {
-        transform: translateX(10);
-    }
-
-
-}
-
 
 
 
@@ -657,8 +626,6 @@ h2 {
 
 
 
-
-
 #moodboardspil .col {
     flex-grow: 1;
     flex-basis: 300px;
@@ -674,21 +641,7 @@ h2 {
 
 }
 
-/*
-#spil_screen .col {
-    flex-grow: 1;
-    flex-basis: 600px;
-    margin: 0.5rem 0.1rem;
-    padding: 1rem;
-}*/
 
-/*
-#spil_screen,
-#spilscreen img {
-
-    padding: .5rem;
-}
-*/
 
 #screen img {
     height: 200px;
@@ -741,6 +694,12 @@ h2 {
 }
 
 
+#indhold2 p {
+
+    padding-right: 30px;
+
+}
+
 #indhold h2 {
     font-family: 'Oswald', sans-serif;
     padding-left: 0.3rem;
@@ -754,47 +713,27 @@ h2 {
 }
 
 
-#box_indhold {
-    display: flex;
-
-}
-
-
+#content,
 #indhold,
 indhold2,
-box_indhold .col,
-    {
+box_indhold .col {
 
     flex-grow: 1;
     flex-basis: 300px;
     margin: 0.5rem 0.1rem;
-    width: 600px;
 
 }
 
 
 
-
-#kevin_video {
+#indhold video {
     display: flex;
 }
 
 
-#kevin_video video {
+#indhold video {
     height: auto;
     width: 50vw;
-
-}
-
-#indhold2 {
-    padding: 40px;
-
-}
-
-
-#indhold2 p {
-
-    padding-right: 30px;
 
 }
 
@@ -807,9 +746,6 @@ box_indhold .col,
     /*    margin: 50px;*/
     display: flex;
 }
-
-
-
 
 
 
@@ -949,7 +885,6 @@ header nav a:visited {
 
 
 
-
 @media only screen and (max-width: 700px) {
     #cv h2 {
 
@@ -957,9 +892,4 @@ header nav a:visited {
 
     }
 
-}
-
-@media only screen and (min-width: 800px) #animationtxt .col {
-    flex-grow: 1;
-    flex-basis: 300px;
 }
