@@ -59,6 +59,7 @@ section {
 
 a {
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -195,61 +196,82 @@ footer {
 /*****OM*******/
 
 
-#cv video {
-    width: 60%;
-    height: 60%;
+
+/*
+#om .sectionwrapper {
+    flex-wrap: wrap-reverse;
+    display: flex;
+
+}
+*/
+
+
+
+#cv .sectionwrapper {
+    flex-wrap: wrap;
+    display: flex;
 
 }
 
 
+/*
 #om img {
-    width: 30%;
+    width: 100%;
+
+        width: 50vw;
+
 }
+*/
 
+#cv .col p {
 
-#cv p {
-    padding-left: 24.5rem;
+    padding-right: 300px;
+
 }
-
 
 #cv h2 {
-    padding-left: 24.5rem;
-
+    /*    padding-left: 24.5rem;*/
+    padding-left: 0;
 
 }
 
-
-/****OM SLUT*****/
-/****Portfolie SLUT****/
 
 
 #om .col {
     flex-grow: 1;
-    flex-basis: 250px;
-    width: auto;
+    flex-basis: 300px;
+
 
 }
 
 #om p,
 h2 {
-    padding-left: 2rem;
-    padding-right: 400px;
+    padding-left: 1.5rem;
+    padding-right: 200px;
 
 }
 
 #om {
 
-    padding-left: 0px;
+
     padding-top: 2.5rem;
 
 }
 
+/*
 #cv .col {
     flex-grow: 1;
-    flex-basis: 250px;
+    flex-basis: 500px;
     width: auto;
 
-}
+}*/
+
+
+/****OM SLUT*****/
+
+
+
+
 
 /****web****/
 
@@ -829,6 +851,47 @@ header nav a:visited {
 
 /**** media INDSTILLINGER **/
 
+
+
+@media only screen and (max-width: 600px) {
+    #cv h2 {
+
+        padding-left: 1rem;
+
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 675px) {
+    #box_indhold .iframe {
+        width: 300px;
+
+
+
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    #box_indhold iframe {
+
+        width: 400px;
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #box_indhold iframe {
+        width: 500px;
+
+    }
+}
+
+
+
 @media only screen and (min-width:800px) {
 
     #menuknap {
@@ -863,12 +926,23 @@ header nav a:visited {
         background-color: transparent;
         margin: 0.2rem;
         text-decoration: none;
-        /*        color: #80173C;*/
+        color: #80173C;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    #cv h2 {
+
+        padding-left: 2rem;
+
     }
 
+}
 
-
-    @media only screen and (min-width: 800px) #animationtxt .col {
-        flex-grow: 1;
-        flex-basis: 300px;
-    }
+@media only screen and (min-width: 800px) #animationtxt .col {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
